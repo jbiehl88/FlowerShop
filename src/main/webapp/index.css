@@ -1,0 +1,248 @@
+    body {
+        background-color: #1d1f16;
+    }
+
+    header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 99
+    }
+
+    .navbar-nav {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        text: white;
+    }
+
+    .nav-link {
+        font-size: 200%;
+        color: white;
+
+    }
+
+    .nav-link2 {
+        color: white;
+        font-size: 300%;
+        font-family: "Brush Script MT", "Brush Script Std", cursive;
+    }
+
+    .nav-container {
+        width: 18%;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        padding: 0px;
+        margin: 6% 20% 1%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 200%;
+
+    }
+
+    .button-container {
+        border-radius: 15px;
+        background-color: #5a6b5e;
+        width: 25%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .but-link {
+        color: white;
+    }
+
+    * {box-sizing:border-box}
+
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 7s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    .week-title {
+        display: flex;
+        font-size: 200%;
+        width: 100%;
+        color: white;
+        margin: 1% 0% 1%;
+        justify-content: center;
+    }
+
+    .flower-week {
+        display: flex;
+        flex-wrap:row wrap;
+        justify-content: space-evenly;
+        gap: 5% 10%;
+        margin: 0% 15% 5% 15%
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+      border: 5px solid white;
+      border-radius: 10%;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .container2:hover .overlay {
+          opacity: 1;
+    }
+
+    .container2 {
+          position: relative;
+          width: 100%;
+          max-width: 300px;
+    }
+
+    .best-sellers {
+            display: flex;
+            flex-wrap:row wrap;
+            justify-content: space-evenly;
+            gap: 5% 10%;
+            margin: 0% 15% 5% 15%
+    }
+
+    .reviews-title {
+            display: flex;
+            font-size: 200%;
+            width: 100%;
+            color: white;
+            margin: 1% 0% 1%;
+            justify-content: center;
+        }
+
+    .review-container {
+        display: flex;
+        flex-wrap:row wrap;
+        justify-content: space-evenly;
+        gap: 5% 10%;
+        height: auto;
+    }
+
+    .review {
+        background-color: #5a6b5e;
+        width: 500px;
+        height: auto;
+        border: 5px solid black;
+        border-radius: 20%;
+        padding: 20%;
+        font-size: 150%;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      align-items: center;
+      font-size: 150%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social {
+        padding-left: 2%;
+    }
+
+    .footer-text {
+        padding-top: .5%;
+    }
