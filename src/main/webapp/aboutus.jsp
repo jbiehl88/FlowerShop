@@ -8,7 +8,7 @@
 </head>
 <style type="text/css">
 
-<%@ include file="index.css" %>
+<%@ include file="stlyesheet/aboutus.css" %>
 
 </style>
 
