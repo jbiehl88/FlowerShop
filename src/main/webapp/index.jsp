@@ -8,7 +8,7 @@
 </head>
 <style type="text/css">
 
-<%@ include file="index.css" %>
+<%@ include file="stylesheet/index.css" %>
 
 </style>
 <body>
@@ -58,7 +58,7 @@
               </form>
             </div>
 
-              <script src="signupmodal.js"></script>
+              <script src="script/signupmodal.js"></script>
 
             <button class="button-container" onclick="document.getElementById('id01').style.display='block'">Login</button>
 
@@ -88,7 +88,7 @@
                 </div>
               </form>
             </div>
-              <script src="loginmodal.js"></script>
+              <script src="script/loginmodal.js"></script>
             <ul class="button-container"><a href="<%=request.getContextPath()%>/track" class="but-link">Track</a></ul>
     </div>
     <div class="slideshow-container">
@@ -117,7 +117,7 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <script src="slideshow.js"></script>
+    <script src="script/slideshow.js"></script>
 
     <div>
         <p class="week-title">Flowers of the Week!</p>
